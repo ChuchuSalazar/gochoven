@@ -1,11 +1,3 @@
-import math
-from scipy.optimize import fsolve
-from plotly.subplots import make_subplots
-import plotly.express as px
-import plotly.graph_objects as go
-import numpy as np
-import pandas as pd
-import io
 import streamlit as st
 
 # IMPORTANTE: set_page_config DEBE ser lo primero después de importar streamlit
@@ -14,9 +6,17 @@ st.set_page_config(
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
-)
 
-# Ahora importar el resto de las librerías
+    import math
+    from scipy.optimize import fsolve
+    from plotly.subplots import make_subplots
+    import plotly.express as px
+    import plotly.graph_objects as go
+    import numpy as np
+    import pandas as pd
+    import io
+
+)
 
 # Header con copyright
 st.markdown("""
