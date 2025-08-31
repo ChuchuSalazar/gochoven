@@ -1,22 +1,19 @@
+import io
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+import plotly.express as px
+from plotly.subplots import make_subplots
+from scipy.optimize import fsolve
+import math
 import streamlit as st
-
 # IMPORTANTE: set_page_config DEBE ser lo primero después de importar streamlit
 st.set_page_config(
     page_title="SEMAVENCA - Proyectos",
     page_icon="📊",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded")
 
-    import math
-    from scipy.optimize import fsolve
-    from plotly.subplots import make_subplots
-    import plotly.express as px
-    import plotly.graph_objects as go
-    import numpy as np
-    import pandas as pd
-    import io
-
-)
 
 # Header con copyright
 st.markdown("""
