@@ -1,3 +1,4 @@
+import streamlit as st
 import io
 import pandas as pd
 import numpy as np
@@ -6,7 +7,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 from scipy.optimize import fsolve
 import math
-import streamlit as st
+
 # IMPORTANTE: set_page_config DEBE ser lo primero después de importar streamlit
 st.set_page_config(
     page_title="SEMAVENCA - Proyectos",
