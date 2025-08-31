@@ -1,6 +1,6 @@
-echo streamlit>=1.28.0 > requirements.txt
-echo pandas>=1.5.0 >> requirements.txt
-echo numpy>=1.24.0 >> requirements.txt
-echo plotly>=5.15.0 >> requirements.txt
-echo scipy>=1.11.0 >> requirements.txt
-echo openpyxl>=3.1.0 >> requirements.txt
+streamlit>=1.28.0 > requirements.txt
+pandas>=1.5.0 >> requirements.txt
+numpy>=1.24.0 >> requirements.txt
+plotly>=5.15.0 >> requirements.txt
+scipy>=1.11.0 >> requirements.txt
+openpyxl>=3.1.0 >> requirements.txt
