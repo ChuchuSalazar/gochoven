@@ -14,6 +14,27 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded")
 
+# ----------------------------
+# Ocultar elementos de Streamlit Cloud y menú superior
+# ----------------------------
+st.markdown(
+    """
+    <style>
+    /* Oculta la barra inferior con avatar y menú */
+    .css-1lsmgbg.e1fqkh3o3 {visibility: hidden !important;}
+    
+    /* Oculta el menú de hamburguesa superior */
+    .css-1v3fvcr.edgvbvh3 {visibility: hidden !important;}
+    
+    /* Oculta el botón de "Help" y demás iconos */
+    header {visibility: hidden !important;}
+    
+    /* Ajusta margen superior si es necesario */
+    .css-18ni7ap {margin-top: 0px !important;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Header con copyright
 st.markdown("""
